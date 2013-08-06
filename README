@@ -1,0 +1,6 @@
+Building a MOOC for Technovation Challenge using Google's Coursebuilder
+
+
+dev_appserver.py .
+in command line will run dev server at localhost:8080
+
