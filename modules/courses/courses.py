@@ -19,6 +19,7 @@ __author__ = 'Pavel Simakov (psimakov@google.com)'
 from controllers import assessments
 from controllers import lessons
 from controllers import utils
+from controllers import utils_hackday
 from models import content
 from models import custom_modules
 from tools import verify
@@ -41,6 +42,7 @@ def register_module():
         ('/assessment', lessons.AssessmentHandler),
         ('/course', lessons.CourseHandler),
         ('/forum', utils.ForumHandler),
+        ('/hackday', utils_hackday.HackDayHandler),
         ('/preview', utils.PreviewHandler),
         ('/register', utils.RegisterHandler),
         ('/review', lessons.ReviewHandler),

@@ -46,6 +46,8 @@ course:
   # screen readers.
   main_video:
     url: https://www.youtube.com/embed/2IV24SB32ag?rel=0
+  psa_video:
+    url: https://www.youtube.com/embed/2IV24SB32ag?rel=0
   main_image:
     url: /assets/img/banner1.png
     alt_text: Photo of Dan Russell
