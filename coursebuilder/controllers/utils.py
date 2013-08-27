@@ -419,6 +419,10 @@ class PreviewHandler(BaseHandler):
             'main_video' in course and
             'url' in course['main_video'] and
             course['main_video']['url'])
+        self.template_value['trailer_exists'] = bool(
+            'trailer_video' in course and
+            'url' in course['trailer_video'] and
+            course['trailer_video']['url'])
         self.template_value['image_exists'] = bool(
             'main_image' in course and
             'url' in course['main_image'] and

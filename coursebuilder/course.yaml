@@ -33,9 +33,10 @@ course:
 
   # Main page blurb. (The '|' at the beginning enables multi-line input.)
   blurb: |
-    Google Search makes it amazingly easy to find information. Come learn about
-    the powerful advanced tools we provide to help you find just the right
-    information when the stakes are high.
+    Technovation Challenge is the largest and longest-running global technology competition exclusively for girls to 
+    inspire the pursuit of STEM (science, technology, engineering and math). This course provides step-by-step tutorials 
+    on how to program an app, create a business plan, and deliver a pitch. At the end of the course, teams submit their 
+    apps, business plans, and video pitches to enter the competition.
 
   # Information about the instructor to display on the main page.
   #instructor_details: 'Daniel Russell <br> Senior Research Scientist <br> Google, Inc.'
@@ -44,13 +45,15 @@ course:
   # If you specify both a video and an image link, then the video will take
   # priority. The image alt text allows the image to be understood by text-only
   # screen readers.
+
+  # main_video = PSA
   main_video:
-    url: https://www.youtube.com/embed/2IV24SB32ag?rel=0
-  psa_video:
-    url: https://www.youtube.com/embed/2IV24SB32ag?rel=0
+    url: https://www.youtube.com/embed/2IV24SB32ag
+  trailer_video:
+    url: https://www.youtube.com/embed/ISeOIchChpY
   main_image:
-    url: /assets/img/banner1.png
-    alt_text: Photo of Dan Russell
+    url: 
+    alt_text: 
 
   # Course start date.
   start_date: 'September 1, 2013'
@@ -58,13 +61,13 @@ course:
   # Forum URL. For details, see
   #
   #     http://code.google.com/p/course-builder/wiki/WebForums.
-  forum_email: My-Course@googlegroups.com
-  forum_url: https://groups.google.com/group/My-Course
+  forum_email: technovation-challenge@googlegroups.com
+  forum_url: https://groups.google.com/group/technovation-challenge
 
   # Forum embedding URL. This link is used to embed the forum in an iframe on
   # the forum.html page. Set this value to False if you don't use forum and/or
   # to remove the Forum link from the student navigation bar.
-  forum_embed_url: https://groups.google.com/forum/embed/?place=forum/My-Course
+  forum_embed_url: https://groups.google.com/forum/embed/?place=forum/technovation-challenge
 
   # URL for the mailing list where students can register to receive course
   # announcements. For details, see
